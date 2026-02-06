@@ -11,6 +11,8 @@ https://huggingface.co/datasets/cj-mills/hagrid-sample-500k-384p
 
 detects palm, stop, stop_inverted, fist
 
+shows as unknown if confidence < 0.8
+
 to run demo in virtual environment:
 
 python3.12 -m venv venv
