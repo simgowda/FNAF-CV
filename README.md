@@ -33,6 +33,6 @@ Limitations:
 
 Can't detect gestures with high confidence when hand is rotated from upright position. To fix, we could augment the dataset first (rotated 90, 180, mirrored, etc...)
 
-Model also tries to detect a hand not doing any gesture as one of the gesture. To fix, we could add the no_gesture class to the dataset, which might help? It contains natural hand postures. However, no_gesture only works if we use a gesture detection model (YOLO)
+Model also tries to detect a hand not doing any gesture as one of the gesture. To fix, we could add the no_gesture class to the dataset, which might help? It contains natural hand postures. 
 
 Model right now (resnet18) only does the gesture recognition, not detection (detecting where the hand is + recognizing gesture). The python program detects the hand for the model using MediaPipe, crop it, then use the model for recognition. Maybe it'd be more accurate if the model does both with YOLO? I'm not sure, but it'd be more to train.
