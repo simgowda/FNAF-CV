@@ -1,9 +1,8 @@
 # FNAF-CV
 ACM AI Project Winter '26
 
-2/6/26 DEMO
 
-https://github.com/user-attachments/assets/76abd7fb-8fa1-4911-a3e6-510ae64169b9
+
 
 Ran in venv with python 3.12 (python 3.13+ doesnt have pytorch support), numpy==1.26.4, opencv-python==4.10.0.84
 
